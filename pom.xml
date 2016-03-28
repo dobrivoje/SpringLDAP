@@ -28,9 +28,14 @@
         </dependency>
         <dependency>
             <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.8.4</version>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.8.9</version>
             <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>cglib</groupId>
+            <artifactId>cglib</artifactId>
+            <version>3.2.1</version>
         </dependency>
     </dependencies>
     <properties>

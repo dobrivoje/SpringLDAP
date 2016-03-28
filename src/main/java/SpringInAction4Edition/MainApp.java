@@ -30,9 +30,9 @@ public class MainApp {
         KutijaCD cd_ovi = context.getBean(KutijaCD.class);
         CDPlayer cDPlayer = context.getBean(CDPlayer.class);
 
-        for (ICompactDisc cd : cd_ovi.getCds()) {
+        cd_ovi.getCds().stream().forEach((cd) -> {
             cd.play();
-        }
+        });
 
         cDPlayer.getCd();
         System.err.println("BEAN DEF NAMES : " + Arrays.toString(context.getBeanDefinitionNames()));
