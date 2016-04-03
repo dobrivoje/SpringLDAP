@@ -7,9 +7,9 @@ package SpringInAction4Edition.aop;
 
 /**
  *
- * @author DPrtenjak
+ * @author root
  */
-public interface Performance {
+public interface IPerformance {
 
     void perform();
 }

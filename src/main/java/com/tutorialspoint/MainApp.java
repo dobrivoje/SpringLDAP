@@ -14,7 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 /**
  *
- * @author DPrtenjak
+ * @author root
  */
 public class MainApp {
 

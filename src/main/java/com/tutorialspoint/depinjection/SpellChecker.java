@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 /**
  *
- * @author DPrtenjak
+ * @author root
  */
 @Component
 public class SpellChecker {

@@ -12,26 +12,26 @@ import org.aspectj.lang.annotation.Before;
 
 /**
  *
- * @author DPrtenjak
+ * @author root
  */
 @Aspect
 public class Audience {
 
-    @Before("execution(** SpringInAction4Edition.aop.Performance.perform(..))")
+    @Before("execution(** SpringInAction4Edition.aop.IPerformance.perform(..))")
     public void silenceCellPhones() {
         System.err.println("Silence your phones !");
     }
 
-    @Before("execution(** SpringInAction4Edition.aop.Performance.perform(..))")
+    @Before("execution(** SpringInAction4Edition.aop.IPerformance.perform(..))")
     public void takeSeats() {
         System.err.println("take your seats, and be quiet !");
     }
 
-    @AfterReturning("execution(** SpringInAction4Edition.aop.Performance.perform(..))")
+    @AfterReturning("execution(** SpringInAction4Edition.aop.IPerformance.perform(..))")
     public void applause() {
     }
 
-    @AfterThrowing("execution(** SpringInAction4Edition.aop.Performance.perform(..))")
+    @AfterThrowing("execution(** SpringInAction4Edition.aop.IPerformance.perform(..))")
     public void demandRefund() {
     }
 

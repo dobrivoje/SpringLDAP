@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  *
- * @author DPrtenjak
+ * @author root
  */
 @Configuration
 @ComponentScan
