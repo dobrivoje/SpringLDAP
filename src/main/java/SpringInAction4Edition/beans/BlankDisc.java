@@ -2,7 +2,6 @@ package SpringInAction4Edition.beans;
 
 import SpringInAction4Edition.ICompactDisc2;
 import java.util.List;
-import org.springframework.stereotype.Component;
 
 public class BlankDisc implements ICompactDisc2 {
 

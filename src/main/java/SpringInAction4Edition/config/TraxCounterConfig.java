@@ -21,7 +21,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class TraxCounterConfig {
 
     @Bean
-    public ICompactDisc2 sgtPeppers() {
+    public ICompactDisc2 getLepaBrena_RaniRadoviCD() {
         BlankDisc cd = new BlankDisc("Lepa Brena", "Rani radovi");
         cd.setTrax(new ArrayList<>(
                 Arrays.asList(
